@@ -16,7 +16,7 @@ set(CMAKE_CXX_EXTENSIONS     OFF)
 
 # Place all executables in <build>/bin/
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY
-    "${CMAKE_BINARY_DIR}/bin")
+    "${CMAKE_BINARY_DIR}")
 
 # Re‑run CMake when you add/remove source files
 cmake_policy(SET CMP0091 NEW)

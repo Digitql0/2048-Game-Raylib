@@ -15,7 +15,7 @@ int main() {
 	InitWindow(width, height, "Hi");
 	SetTargetFPS(60);
 
-  std::cout << rnd() % 20 << std::endl;
+  	std::cout << rand() % 20 << std::endl;
 
 	while (!WindowShouldClose()) {
 
